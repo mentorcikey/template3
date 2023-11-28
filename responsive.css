@@ -1,0 +1,172 @@
+/* Mobile & Tablet */
+@media screen and (max-width: 1023px) {
+    .header-nav{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-menu{
+        display: block;
+    }
+    .infomation{
+        display: block;
+    }
+    .metal__content{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .metal__content--left{
+        width: 100%;
+    }
+    .metal__content--right{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .header{
+        padding: 17px 3.226%;
+    }
+    .chesse{
+        padding: 32px 3.226%;
+    }
+    .chesse__content--title{
+        width: 50%;
+        font-size: 3.90625vw;
+    }
+    .chesse__content--text{
+        width: 100%;
+        font-size: 1.7578vw;
+    }
+    .metal{
+        padding: 24px 3.226% 24px 3.226%;
+    }
+    .metal__content{
+        margin-top: 29px;
+        gap: 29px;
+    }
+    .metal__content--left{
+        gap: 29px;
+    }
+    .userInfo{
+        padding: 30px 3.226%;
+        gap: 30px;
+    }
+    .userInfo-list{
+        gap: 16px;
+    }
+    .userInfo-item:nth-child(3){
+        display: none;
+    }
+    .slider-slogan h1{
+        font-size: 34px;
+    }
+    .footer{
+        padding: 40px 2.957%;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 739px){
+    .header{
+        padding: 17px 6.154%;
+    }
+    .header-name{
+        font-size: 20px;
+    }
+    .chesse{
+        padding: 0 6.154%;
+    }
+    .chesse-content{
+        padding: 0;
+    }
+    .chesse__content--title{
+        width: 50%;
+        font-size: 5.505vw;
+    }
+    .chesse__content--text{
+        width: 60%;
+        font-size: 3.162vw;
+    }
+    .chesse__content--bottom{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .chesse-img{
+        margin-top: 41px;
+    }
+    .chesse__content--btn{
+        width: 135px;
+        height: 38px;
+    }
+    .chesse__content--btn-text{
+        width: 80%;
+        font-size: 3.162vw;
+        font-weight: 600;
+        text-align: center;
+    }
+    .info-nutri{
+        padding: 20px 7.692%;
+    }
+    .metal{
+        padding: 24px 6.154% 24px 6.154%;
+    }
+    .metal-img{
+        height: 195px;
+    }
+    .metal__content{
+        margin-top: 14px;
+        gap: 14px;
+    }
+    .metal__content--left{
+        gap: 14px;
+    }
+    .metal__content--right li{
+        font-size: 14px;
+    }
+    .userInfo{
+        padding: 30px 6.154%;
+        gap: 30px;
+    }
+    .userInfo-item:nth-child(2){
+        display: none;
+    }
+    .userInfo-item:nth-child(3){
+        display: none;
+    }
+    .slider-slogan{
+        width: auto;
+        padding: 0 6.154%;
+    }
+    .slider-slogan h1{
+        font-size: 24px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 7.6923%;
+    }
+    .footer__left{
+        width: 100%;
+        align-items: center;
+    }
+    .footer__option--list{
+        text-align: center;
+    }
+    .footer__sub{
+        align-items: center;
+        width: 100%;
+    }
+    .footer__sub p{
+        text-align: center;
+    }
+}
